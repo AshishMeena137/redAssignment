@@ -9,8 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@openzeppelin/contracts": "^4.9.1",
+    "dotenv": "^16.1.4",
+    "ethers": "^5.7.2",
     "next": "13.4.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "sweetalert2": "^11.7.11"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.14.1"
   }
 }
